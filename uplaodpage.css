@@ -1,19 +1,9 @@
-/* General styles */
+/* Global styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f0f0f0;
-  }
-
-  
-  
-  nav a {
-    color: #fff; /* white text */
-  }
-  
-  nav a:hover {
-    color: #F5F5F5; /* light gray */
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -32,16 +22,9 @@ body {
   }
   
   /* Header styles */
-  header{
-    color: white;
-  }
-  header.home{
-    color: white;
-  }
- 
   header {
     background-color: #4682B4; /* steel blue */
-    color: #fff; /* white text */;
+    color: #fff; /* white text */
     padding: 10px 20px;
   }
   
@@ -64,9 +47,9 @@ body {
     max-width: 1000px;
     margin: 0 auto;
     padding: 20px;
-    
-   background-color: #F5F5F5; /* light gray */
-
+    background-color: #F5F5F5; /* light gray */
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   }
   
   section {
@@ -89,53 +72,60 @@ body {
   
   /* Footer styles */
   footer {
-    background-color: #fff;
+    background-color: #2F4F4F; /* dark slate gray */
+    color: #fff; /* white text */
+    padding: 10px;
     text-align: center;
-    padding: 10px 20px;
     box-shadow: 0px -3px 5px rgba(0,0,0,0.1);
   }
   
-  /* Additional styles for upload/download buttons */
-  .upload-btn, .download-btn {
-    background-color: #333;
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  select {
+    width: 320px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  textarea {
+    width: 320px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #4682B4; /* steel blue */
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
-    margin-right: 10px;
+    margin-top: 20px;
   }
   
-  .upload-btn:hover, .download-btn:hover {
-    background-color: #555;
-  }
-/* CSS for header section */
-
-  
-  /* CSS for footer section */
-  .about{
-    color: #f2f2f2;
-    
-
- }
- .about:hover{
-    background-color: green;
- }
-
- 
-  footer {
+  input[type="submit"]:hover {
     background-color: #2F4F4F; /* dark slate gray */
-    color: #fff; /* white text */
-    padding: 10px;
-    text-align: center;
-  }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
   }
   
