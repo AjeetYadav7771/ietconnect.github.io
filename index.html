@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>IETians - Home</title>
+    <title>Classroomarchiver</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -10,7 +10,7 @@
   </head>
   <body>
     <header>
-      <h1>Dr. Bhim Rao Ambedkar University</h1>
+      <h1 class="college_name">Institute of Engineering and Technology</h1>
       <nav>
         <ul>
           <li><a href="#" >Home</a></li>
@@ -37,10 +37,10 @@
         <h2>Download or Upload Question Papers</h2>
         <div class="upload-download-buttons">
           <form>
-            <label for="file-upload" class="custom-file-upload">
-              <i class="fa fa-cloud-upload"></i> Upload Question Paper
-            </label>
-            <input id="file-upload" type="file"/>
+            <button class="custom-file-upload">
+            <i class="fa fa-upload"></i>
+            Upload Question Papers
+          </button>
 
             <button class="custom-file-download">
               <i class="fa fa-download"></i> Download Question Paper
@@ -48,12 +48,16 @@
           </form>
         </div>
       </section>
+      <section>
+        <h2>Practical files</h2>
+
+      </section>
     </main>
     
     <footer>
       <p>&copy; 2023 College Name. All rights reserved.</p>
       <br>
-      <p>About us</p>
+      <a href="aboutus.html" class="about">About Us</a>
     </footer>
   </body>
 </html>
