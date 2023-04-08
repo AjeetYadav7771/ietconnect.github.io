@@ -13,12 +13,12 @@ header{
 .vinayimg{
     border-radius: 50%;
     width: 100px;
-    height: 120px;
+    height: 100px;
 }
 .devimg{
     border-radius: 50%;
     width: 100px;
-    height: 120px;
+    height: 100px;
 }
 h2.vinayimage{
     justify-content: flex-end;
