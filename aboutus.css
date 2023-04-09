@@ -4,9 +4,9 @@ body {
     flex: none;
 }
 header{
-    display: flex;
+    display: flexbox;
    
-    background-color: skyblue; /* You can replace #333 with any color code or color name you like */
+    background-color: rgb(234, 190, 190); /* You can replace #333 with any color code or color name you like */
   color: #fff; /* Set the font color to white */
   padding: 40px; /* Add some padding to the header */
 }
@@ -25,9 +25,9 @@ h2.vinayimage{
 
 }
 main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
 }
 .person {
     width: 45%;
