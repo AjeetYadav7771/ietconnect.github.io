@@ -1,4 +1,5 @@
 # IET Connect
+⚠️ WARNING: This project is still under intensive development. Features may break and sometimes, even the web app may not load.
 ## Introduction
 This website is for the students of IET Agra, affiliated to Dr. Bhimrao Ambedkar University.
 Upon completion, this project may have following features:
