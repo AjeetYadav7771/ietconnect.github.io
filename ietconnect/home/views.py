@@ -8,7 +8,7 @@ def index(request):
     return render(request, "index.html", context)
 
 def about(request):
-    return HttpResponse("This is about page.")
+    return render(request, "about.html")
 
 def login(request):
     return HttpResponse("This is login page.")

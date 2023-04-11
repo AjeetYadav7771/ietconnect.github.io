@@ -1,31 +1,27 @@
+{% extends 'base.html' %}
 
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>About Us</title>
-	<link rel="stylesheet" href="aboutus.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-fHFx1eU6rzXgCzrT6BefM6HGVdV7Inp0W0e/7nglfool/FI2K0X1NlN0c+BzhGJd+7wMTInnCnzb1AVxJx/tQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
+	{% block title %}
+	About
+	{% endblock title %}
 </head>
 <body>
+	{% block body %}
+	<link rel="stylesheet" href="/static/about.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-fHFx1eU6rzXgCzrT6BefM6HGVdV7Inp0W0e/7nglfool/FI2K0X1NlN0c+BzhGJd+7wMTInnCnzb1AVxJx/tQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 	<header>
 		<header>
 			<h1 class="college_name">About Us</h1>
-			<nav>
-			  <ul>
-				<li><a href="#" >Home</a></li>
-				<li><a href="#">Question Papers</a></li>
-				<li><a href="#">Join Community</a></li>
-				<li><a href="login.html">Login or Sign Up</a></li>
-			  </ul>
-			</nav>
 		  </header>
 	</header>
 	
 	<main>
 		<div class="person">
-            <img src="images/vinay-sharma.jpg" alt="image not found !" class="vinayimg">
+            <img src="/static/images/vinay-sharma.jpg" alt="image not found !" class="vinayimg">
 			<h2>Vinay Sharma</h2>
             
 			<p>Vinay Sharma is a passionate programmer with a background in computer science. He enjoys building web applications and experimenting with new technologies. In his free time, he likes to read books and play basketball.</p>
@@ -37,7 +33,7 @@
 		</div>
 		
 		<div class="person">
-            <img src="images/dev-anand.jpg" alt="image not found !" class="devimg">
+            <img src="/static/images/dev-anand.jpg" alt="image not found !" class="devimg">
 			<h2>Dev Anand</h2>
 
 			<p>Dev Anand is a creative designer with a love for all things digital. He has a strong background in graphic design and user experience, and enjoys creating beautiful and intuitive interfaces. When he's not designing, he likes to travel and explore new places.</p>
@@ -52,3 +48,5 @@
 	<footer>
 		<p>&copy; 2023 IET Agra. All rights reserved.</p>
 	</footer>
+	{% endblock body %}
+	

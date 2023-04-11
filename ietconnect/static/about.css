@@ -6,7 +6,7 @@ body {
 header{
     display: flexbox;
    
-    background-color: rgb(234, 190, 190); /* You can replace #333 with any color code or color name you like */
+    background-color: #f85151; /* You can replace #333 with any color code or color name you like */
   color: #fff; /* Set the font color to white */
   padding: 40px; /* Add some padding to the header */
 }
