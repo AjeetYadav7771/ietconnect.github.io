@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Generate Customized PDF with PDF.js</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.7.570/pdf.min.js"></script>
+</head>
+<body>
+  <form>
+    <label for="name">Enter your name:</label>
+    <input type="text" id="name" name="name">
+    <button type="button" onclick="generatePDF()">Download PDF</button>
+  </form>
+  
+  <script>
+    function generatePDF() {
+      // retrieve the user's name from the form
+      const name = document.getElementById('name').value;
+      
+      // load the existing PDF template
+      const template = '/staic/pdf.pdf';
+      const loadingTask = pdfjsLib.getDocument(template);
+      loadingTask.promise.then(function(pdf) {
+        // get the first page of the PDF
+        const pageNumber = 1;
+        pdf.getPage(pageNumber).then(function(page) {
+          // get the page dimensions
+          const viewport = page.getViewport({ scale: 1.0 });
+          const canvas = document.createElement('canvas');
+          const context = canvas.getContext('2d');
+          canvas.width = viewport.width;
+          canvas.height = viewport.height;
+          
+          // render the page to the canvas
+          const renderTask = page.render({
+            canvasContext: context,
+            viewport: viewport
+          });
+          renderTask.promise.then(function() {
+            // add text to the canvas
+            context.font = 'bold 24px Arial';
+            context.fillStyle = 'black';
+            context.fillText(name, 100, 100); // add the user's name to the PDF
+            
+            // create a new PDF from the canvas
+            const newPdf = new jsPDF();
+            const imageData = canvas.toDataURL('image/jpeg');
+            newPdf.addImage(imageData, 'JPEG', 0, 0, viewport.width, viewport.height);
+            
+            // prompt the user to download the PDF
+            newPdf.save('my-customized-pdf.pdf');
+          });
+        });
+      });
+    }
+  </script>
+</body>
+</html>
