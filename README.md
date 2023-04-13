@@ -1,6 +1,7 @@
 # IET Connect
 ⚠️ WARNING: This project is still under intensive development. Features may break and sometimes, even the web app may not load.
 ## Introduction
+![alt text](https://github.com/heydevanand/ietconnect.github.io/blob/main/ietconnect/static/images/banner.png?raw=true)
 This website is for the students of IET Agra, affiliated to Dr. Bhimrao Ambedkar University.
 Upon completion, this project may have following features:
 * Students will be able to download previous year examination papers for their exam prep.
