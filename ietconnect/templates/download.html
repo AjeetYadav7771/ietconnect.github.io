@@ -1,29 +1,23 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">  
-    <title>Custom Select Menu in JavaScript | CodingNepal</title>
-    <link rel="stylesheet" href="{% url 'download.css' %}">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Iconscout Link For Icons -->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="select-btn">
-        <span>Select Country</span>
-        <i class="uil uil-angle-down"></i>
-      </div>
-      <div class="content">
-        <div class="search">
-          <i class="uil uil-search"></i>
-          <input spellcheck="false" type="text" placeholder="Search">
-        </div>
-        <ul class="options"></ul>
-      </div>
-    </div>
+{% extends 'base.html' %}
 
-    <script src="download.js"></script>
-        
-  </body>
-</html>
+{% block title %}Download PYQs{% endblock title %}
+
+{% block body %}
+
+<div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
+  <ul class="dropdown-menu position-static d-grid gap-1 p-2 rounded-3 mx-0 shadow w-220px" data-bs-theme="light">
+    <li><a class="dropdown-item rounded-2 active" href="#">Action</a></li>
+    <li><a class="dropdown-item rounded-2" href="#">Another action</a></li>
+    <li><a class="dropdown-item rounded-2" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item rounded-2" href="#">Separated link</a></li>
+  </ul>
+  <ul class="dropdown-menu position-static d-grid gap-1 p-2 rounded-3 mx-0 border-0 shadow w-220px" data-bs-theme="dark">
+    <li><a class="dropdown-item rounded-2 active" href="#">Action</a></li>
+    <li><a class="dropdown-item rounded-2" href="#">Another action</a></li>
+    <li><a class="dropdown-item rounded-2" href="#">Something else here</a></li>
+    <li><hr class="dropdown-divider"></li>
+    <li><a class="dropdown-item rounded-2" href="#">Separated link</a></li>
+  </ul>
+</div>
+{% endblock body %}

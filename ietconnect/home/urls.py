@@ -9,5 +9,5 @@ urlpatterns = [
     path('contact', views.contact, name="contact"),
     path('pdf', views.pdf, name="pdf"),
     path('login', views.login, name="login"),
-    path('download', views.download, name="downlaod")
+    path('download', views.download, name="download")
 ]

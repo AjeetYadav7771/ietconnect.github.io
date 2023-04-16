@@ -1,5 +1,15 @@
 {
   "dependencies": {
     "php": "^1.0.2"
-  }
+  },
+  "name": "ietconnect",
+  "version": "1.0.0",
+  "main": "c",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

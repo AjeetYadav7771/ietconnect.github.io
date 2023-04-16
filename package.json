@@ -1,0 +1,11 @@
+{
+  "name": "ietconnect",
+  "version": "1.0.0",
+  "description": "⚠️ WARNING: This project is still under intensive development. Features may break and sometimes, even the web app may not load.\r ## Introduction\r ![alt text](https://github.com/heydevanand/ietconnect.github.io/blob/main/ietconnect/static/images/banner.png?raw=true)\r This website is for the students of IET Agra, affiliated to Dr. Bhimrao Ambedkar University.\r Upon completion, this project may have following features:\r * Students will be able to download previous year examination papers for their exam prep.\r * They will be able to connect to the whole community just by logging in with their college number e.g. 20CSE01, 21ECE01, 22ME01 etc.\r * If we are able to do so, students will also be able to see their attendance insights.\r * Sharing college photos and making IET a better place by the students will also be possible.\r ## How to use\r It's very simple. This website is currently deployed on two platforms:\r * [GitHub Pages](https://heydevanand.github.io/ietconnect.github.io/)\r * [Google Firebase](ietconnect.web.app)",
+  "main": "firebase.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

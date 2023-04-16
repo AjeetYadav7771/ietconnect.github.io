@@ -5,7 +5,9 @@ Contact Us
 {% endblock title %}
 
 {% block body %}
-<form style="margin-top: 30px; margin-left: 20%; margin-right: 20%;" method="post" action="{% url 'contact' %}">
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<form style="margin-top: 30px; margin-left: 20%; margin-right: 20%;" method="post" action="{% url 'contact' %}" id="contactForm">
     {% csrf_token %}
     <div class="mb-3">
         <label for="name" class="form-label">Name</label>
@@ -25,4 +27,6 @@ Contact Us
 
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+  <script src="contact.js"></script>
 {% endblock body %}
