@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&family=Tilt+Prism&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 body{
-    background-color: rgb(246, 240, 232);
+    background-color: #f6f5f7;
 }
 .logo{
     display: inline-block;
@@ -16,8 +16,9 @@ body{
     overflow: hidden;
     display: inline-block;
     font-size: 35px;
-    width: 400px;
+    width: 160px;
     height: 100px;
+    font-family: 'Montserrat', sans-serif;
 }
 .signup{
     float: right;
@@ -25,7 +26,7 @@ body{
     height: 100px;
 }
 .signup button {
-    background-color: #34568b;
+    background-color: #df5353;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -43,7 +44,7 @@ button:hover {
 }
 .about{
     display: flex;
-    background-color: #34568b;
+    background-color: #df5353;
     border-radius: 10px;
     margin: 1px;
 }
@@ -51,6 +52,7 @@ button:hover {
     color: aliceblue;
     font-style: normal;
     text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
 }
 header{
     height: 8vh;
@@ -60,14 +62,15 @@ header .about a{
     font-size: 25px;
     text-decoration: none;
     color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
 }
 header .about a:hover{
-    color: red;
+    color: #34568b;
 }
 footer{
     height: 6vh;
     color: aliceblue;
-    background-color: #34568b;
+    background-color:#df5353;
     margin: 5px;
     border-radius: 10px;
 }
@@ -148,13 +151,14 @@ footer{
     margin: 3px;
 }
 .dropbtn {
-    background-color: #34568b;
+    background-color: #df5353;
     color: aliceblue;
     padding: 15px;
     font-size: 25px;
     text-decoration: none;
     border: none;
     cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
 }
 .dropdown {
     position: relative;
@@ -163,7 +167,7 @@ footer{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:#34568b;
+    background-color: #df5353;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -173,15 +177,16 @@ footer{
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    font-family: 'Montserrat', sans-serif;
 }
 .dropdown-content a:hover {
-    background-color: #34568b;
+    background-color: #df5353;
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: #34568b;
+    background-color: #df5353;
 }
 .container .container2 .con2sub1 .sub11 img{
     height: 50px;

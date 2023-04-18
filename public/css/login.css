@@ -237,16 +237,8 @@ footer {
     text-align: center;
     z-index: 999;
 }
-
-footer p {
-    margin: 10px 0;
-}
-
-footer i {
-    color: red;
-}
-
-footer a {
-    color: #3c97bf;
-    text-decoration: none;
+footer .ft {
+		color: #3c97bf;
+		text-decoration: none;
+		margin: 10px 0;
 }
