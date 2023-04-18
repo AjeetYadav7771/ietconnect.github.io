@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;900&family=Tilt+Prism&display=swap');
+body{
+    background-color: rgb(246, 240, 232);
+}
+.logo{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.logo img {
+    width: 100px;
+    border-radius: 50px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.name{
+    overflow: hidden;
+    display: inline-block;
+    font-size: 35px;
+    width: 400px;
+    height: 100px;
+}
+.signup{
+    float: right;
+    width: 150px;
+    height: 100px;
+}
+.signup button {
+    background-color: #34568b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.about{
+    display: flex;
+    background-color: #34568b;
+    border-radius: 10px;
+    margin: 1px;
+}
+.login{
+    color: aliceblue;
+    font-style: normal;
+    text-decoration: none;
+}
+header{
+    height: 8vh;
+}
+header .about a{
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    color: aliceblue;
+}
+header .about a:hover{
+    color: red;
+}
+footer{
+    height: 6vh;
+    color: aliceblue;
+    background-color: #34568b;
+    margin: 5px;
+    border-radius: 10px;
+}
+.foo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    height: 70vh;
+}
+.container1{
+    display: inline-block;
+    overflow: hidden;
+    border:solid #34568b;
+    border-width: 3px;
+    border-radius: 10px;
+    height: 70vh;
+    width: 48vw;
+    
+}
+.container2{
+    overflow: hidden;
+    display: inline-block;
+    height: 70vh;
+    width: 48vw;
+    border: solid #34568b;
+    border-width: 3px;
+    border-radius: 10px;
+}
+.content .container1 .heading{
+    color: #34568b;
+    margin: 5px;
+}
+.content .container1 .post1{
+    height: 30vh;
+    width: 47vw;
+    border: #34568b solid;
+    border-radius: 10px;
+    margin: 5px;
+}
+.content .container1 .post2{
+    height: 30vh;
+    width: 47vw;
+    border: #34568b solid;
+    border-radius: 10px;
+    margin: 5px;    
+}
+.content .container2 .con2sub1 {
+    height: 68vh;
+    width: 25vw;
+}
+.content .container2 .con2sub1 .sub11{
+    display: inline-block;
+    overflow: hidden;
+    object-fit: cover;
+    width: 11vw;
+    height: 33vh;
+    margin: 3px;
+}
+.content .container2 .con2sub1 .sub12{
+    display: inline-block;
+    overflow: hidden;
+    width: 11vw;
+    height: 33vh;
+    margin: 3px;
+}.content .container2 .con2sub1 .sub13{
+    display: inline-block;
+    overflow: hidden;
+    width: 11vw;
+    height: 33vh;
+    margin: 3px;
+}.content .container2 .con2sub1 .sub14{
+    display: inline-block;
+    overflow: hidden;
+    width: 11vw;
+    height: 33vh;
+    margin: 3px;
+}
+.dropbtn {
+    background-color: #34568b;
+    color: aliceblue;
+    padding: 15px;
+    font-size: 25px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:#34568b;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: #34568b;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #34568b;
+}
+.container .container2 .con2sub1 .sub11 img{
+    height: 50px;
+}
