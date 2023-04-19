@@ -26,7 +26,7 @@ body{
     height: 100px;
 }
 .signup button {
-    background-color: #df5353;
+    background-color: #FF416C;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -44,7 +44,7 @@ button:hover {
 }
 .about{
     display: flex;
-    background-color: #df5353;
+    background-color: #FF416C;
     border-radius: 10px;
     margin: 1px;
 }
@@ -70,7 +70,7 @@ header .about a:hover{
 footer{
     height: 6vh;
     color: aliceblue;
-    background-color:#df5353;
+    background-color:#FF416C;
     margin: 5px;
     border-radius: 10px;
 }
@@ -102,7 +102,7 @@ footer{
     border-radius: 10px;
 }
 .content .container1 .heading{
-    color: #34568b;
+    color: #FF416C;
     margin: 5px;
 }
 .content .container1 .post1{
@@ -151,7 +151,7 @@ footer{
     margin: 3px;
 }
 .dropbtn {
-    background-color: #df5353;
+    background-color: #FF416C;
     color: aliceblue;
     padding: 15px;
     font-size: 25px;
@@ -167,7 +167,7 @@ footer{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #df5353;
+    background-color: #FF416C;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -180,13 +180,13 @@ footer{
     font-family: 'Montserrat', sans-serif;
 }
 .dropdown-content a:hover {
-    background-color: #df5353;
+    background-color: #FF416C;
 }
 .dropdown:hover .dropdown-content {
     display: block;
 }
 .dropdown:hover .dropbtn {
-    background-color: #df5353;
+    background-color: #FF416C;
 }
 .container .container2 .con2sub1 .sub11 img{
     height: 50px;
